@@ -21,7 +21,7 @@ class Greet extends Component{
         const a= this.state.count;
         return(<div>
             {a}{this.state.count}
-            <button onClick={()=>this.messageChanger()}></button>
+            <button onClick={()=>this.messageChanger()}>cllickkk</button>
         </div>)
     }
 }
